@@ -1,7 +1,7 @@
 # Hacking with Swift
 This is Hacking with Swift, Paul Hudson's iOS Development Courses.
 
-## Hacking with Swift [UIKit Edition]
+## Hacking with Swift - UIKit Edition
 
 - [x] Introduction to Swift
 > Learn the basics of Swift syntax using Xcode playgrounds – start here if this is your first time using Swift.
