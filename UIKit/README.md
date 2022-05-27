@@ -6,7 +6,7 @@ This is Hacking with Swift, Paul Hudson's iOS Development Courses.
 - [x] Introduction to Swift
 > Learn the basics of Swift syntax using Xcode playgrounds – start here if this is your first time using Swift.
 
-- [ ] Project 1: Storm Viewer
+- [x] Project 1: Storm Viewer
 > Constants and variables, UITableView, UIImageView, FileManager, storyboards
 Get started coding in Swift by making an image viewer app and learning key concepts.
 
