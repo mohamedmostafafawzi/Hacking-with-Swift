@@ -16,15 +16,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="18o-Bk-2Vh">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="18o-Bk-2Vh">
                                 <rect key="frame" x="107" y="88" width="200" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="DUV-20-bKS"/>
+                                    <constraint firstAttribute="width" constant="200" id="fSF-Ou-Bri"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="us"/>
                                 <connections>
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Sb-9w-OEN"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZTd-VJ-p2E">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZTd-VJ-p2E">
                                 <rect key="frame" x="107" y="218" width="200" height="100"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="us"/>
@@ -32,7 +36,7 @@
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dr9-cI-ShY"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vTa-4d-bmu">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vTa-4d-bmu">
                                 <rect key="frame" x="107" y="348" width="200" height="100"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="us"/>
@@ -45,11 +49,15 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="18o-Bk-2Vh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="09O-bh-Ocs"/>
+                            <constraint firstItem="ZTd-VJ-p2E" firstAttribute="height" secondItem="18o-Bk-2Vh" secondAttribute="height" id="5EC-bX-U5v"/>
                             <constraint firstItem="ZTd-VJ-p2E" firstAttribute="top" secondItem="18o-Bk-2Vh" secondAttribute="bottom" constant="30" id="5pB-Zt-nZZ"/>
                             <constraint firstItem="vTa-4d-bmu" firstAttribute="centerX" secondItem="ZTd-VJ-p2E" secondAttribute="centerX" id="8nR-YA-Xn7"/>
+                            <constraint firstItem="vTa-4d-bmu" firstAttribute="width" secondItem="ZTd-VJ-p2E" secondAttribute="width" id="CbG-Iv-Ncm"/>
                             <constraint firstItem="ZTd-VJ-p2E" firstAttribute="centerX" secondItem="18o-Bk-2Vh" secondAttribute="centerX" id="UlQ-x3-Liv"/>
+                            <constraint firstItem="ZTd-VJ-p2E" firstAttribute="width" secondItem="18o-Bk-2Vh" secondAttribute="width" id="WbK-aM-SEA"/>
                             <constraint firstItem="18o-Bk-2Vh" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="bjy-Cl-6Lh"/>
                             <constraint firstItem="vTa-4d-bmu" firstAttribute="top" secondItem="ZTd-VJ-p2E" secondAttribute="bottom" constant="30" id="i2k-dm-rIk"/>
+                            <constraint firstItem="vTa-4d-bmu" firstAttribute="height" secondItem="ZTd-VJ-p2E" secondAttribute="height" id="pLH-2y-8wH"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="bw0-BH-CUs"/>

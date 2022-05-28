@@ -18,6 +18,8 @@ class ViewController: UITableViewController {
         
         navigationController?.navigationBar.prefersLargeTitles = true
         
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(recommendTapped))
+        
         let fm = FileManager.default
         let path = Bundle.main.resourcePath!
         let items = try! fm.contentsOfDirectory(atPath: path)
@@ -33,6 +35,13 @@ class ViewController: UITableViewController {
         
         print(pictures)
         
+    }
+    
+    @objc func recommendTapped() {
+        let recommendationMessage = "Hey! Checkout this awesome app.."
+        let vc = UIActivityViewController(activityItems: [recommendationMessage], applicationActivities: [])
+        vc.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
+        present(vc, animated: true)
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
