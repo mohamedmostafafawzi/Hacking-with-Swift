@@ -33,6 +33,8 @@ class ViewController: UIViewController {
 
         askQuestion()
         
+        navigationItem.rightBarButtonItem =  UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(showScoreTapped))
+        
     }
 
 
@@ -85,6 +87,11 @@ Question Left: \(10 - questionsCount)
         present(ac, animated: true)
     }
     
+    @objc func showScoreTapped() {
+        let ac = UIAlertController(title: "Score", message: "Your score is \(score)", preferredStyle: .alert)
+        ac.addAction(UIAlertAction(title: "Ok", style: .default))
+        present(ac, animated: true)
+    }
     
 }
 
