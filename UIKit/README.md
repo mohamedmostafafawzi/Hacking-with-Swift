@@ -18,7 +18,7 @@ Make a game using UIKit, and learn about integers, buttons, colors and actions.
 > UIBarButtonItem, UIActivityViewController, URL
 Let users share to Facebook and Twitter by modifying project 1.
 
-- [ ] Project 4: Easy Browser
+- [x] Project 4: Easy Browser
 > loadView(), WKWebView, URLRequest, UIToolbar, UIProgressView, key-value observing
 Embed Web Kit and learn about delegation, KVO, classes and UIToolbar.
 
