@@ -13,6 +13,7 @@
 		70561695284CE942003FD12E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70561693284CE942003FD12E /* Main.storyboard */; };
 		70561697284CE944003FD12E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70561696284CE944003FD12E /* Assets.xcassets */; };
 		7056169A284CE944003FD12E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70561698284CE944003FD12E /* LaunchScreen.storyboard */; };
+		705616A2284CED54003FD12E /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 705616A1284CED54003FD12E /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		70561696284CE944003FD12E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70561699284CE944003FD12E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7056169B284CE944003FD12E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		705616A1284CED54003FD12E /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				70561693284CE942003FD12E /* Main.storyboard */,
 				70561696284CE944003FD12E /* Assets.xcassets */,
 				70561698284CE944003FD12E /* LaunchScreen.storyboard */,
+				705616A1284CED54003FD12E /* start.txt */,
 				7056169B284CE944003FD12E /* Info.plist */,
 			);
 			path = project5;
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7056169A284CE944003FD12E /* LaunchScreen.storyboard in Resources */,
+				705616A2284CED54003FD12E /* start.txt in Resources */,
 				70561697284CE944003FD12E /* Assets.xcassets in Resources */,
 				70561695284CE942003FD12E /* Main.storyboard in Resources */,
 			);
