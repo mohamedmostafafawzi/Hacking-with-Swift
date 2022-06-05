@@ -22,7 +22,7 @@ Let users share to Facebook and Twitter by modifying project 1.
 > loadView(), WKWebView, URLRequest, UIToolbar, UIProgressView, key-value observing
 Embed Web Kit and learn about delegation, KVO, classes and UIToolbar.
 
-- [ ] Project 5: Word Scramble
+- [x] Project 5: Word Scramble
 > Closures, method return values, booleans, NSRange
 Create an anagram game while learning about closures and booleans.
 
