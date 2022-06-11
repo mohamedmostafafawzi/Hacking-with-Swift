@@ -26,7 +26,7 @@ Embed Web Kit and learn about delegation, KVO, classes and UIToolbar.
 > Closures, method return values, booleans, NSRange
 Create an anagram game while learning about closures and booleans.
 
-- [ ] Project 6: Auto Layout
+- [x] Project 6: Auto Layout
 > NSLayoutConstraint, Visual Format Language, layout anchors
 Get to grips with Auto Layout using practical examples and code.
 
