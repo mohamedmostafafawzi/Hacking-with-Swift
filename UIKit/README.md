@@ -30,7 +30,7 @@ Create an anagram game while learning about closures and booleans.
 > NSLayoutConstraint, Visual Format Language, layout anchors
 Get to grips with Auto Layout using practical examples and code.
 
-- [ ] Project 7: Whitehouse Petitions
+- [x] Project 7: Whitehouse Petitions
 > JSON, Data, UITabBarController
 Make an app to parse Whitehouse petitions using JSON and a tab bar.
 
