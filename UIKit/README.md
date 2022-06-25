@@ -34,7 +34,7 @@ Get to grips with Auto Layout using practical examples and code.
 > JSON, Data, UITabBarController
 Make an app to parse Whitehouse petitions using JSON and a tab bar.
 
-- [ ] Project 8: 7 Swifty Words
+- [x] Project 8: 7 Swifty Words
 > addTarget(), enumerated(), count(), index(of:), joined(), property observers, range operators
 Build a word-guessing game and master strings once and for all.
 
