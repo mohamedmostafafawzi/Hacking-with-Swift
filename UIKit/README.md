@@ -38,7 +38,7 @@ Make an app to parse Whitehouse petitions using JSON and a tab bar.
 > addTarget(), enumerated(), count(), index(of:), joined(), property observers, range operators
 Build a word-guessing game and master strings once and for all.
 
-- [ ] Project 9: Grand Central Dispatch
+- [x] Project 9: Grand Central Dispatch
 > DispatchQueue, perform(inBackground:)
 Learn how to run complex tasks in the background with GCD.
 
