@@ -66,8 +66,12 @@ class ViewController: UITableViewController {
         ac.addTextField()
         let searchAction = UIAlertAction(title: "Search", style: .default) { [unowned self, ac] action in
             let searchWord = ac.textFields![0].text!
-            self.filteredPetitions = petitions.filter { $0.title.lowercased().contains(searchWord.lowercased()) }
-            tableView.reloadData()
+            DispatchQueue.global(qos: .userInitiated).async { [weak self] in
+                self?.filteredPetitions = self?.petitions.filter { $0.title.lowercased().contains(searchWord.lowercased()) }
+            }
+            DispatchQueue.main.async { [weak self] in
+                self?.tableView.reloadData()
+            }
         }
         ac.addAction(searchAction)
         present(ac, animated: true)
