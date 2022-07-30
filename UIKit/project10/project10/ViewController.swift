@@ -77,6 +77,9 @@ class ViewController: UICollectionViewController, UIImagePickerControllerDelegat
     }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        if UIImagePickerController.isSourceTypeAvailable(.camera) {
+            picker.sourceType = .camera
+        }
         guard let image = info[.editedImage] as? UIImage else { return }
         
         let imageName = UUID().uuidString
