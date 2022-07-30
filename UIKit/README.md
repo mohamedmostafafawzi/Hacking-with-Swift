@@ -42,7 +42,7 @@ Build a word-guessing game and master strings once and for all.
 > DispatchQueue, perform(inBackground:)
 Learn how to run complex tasks in the background with GCD.
 
-- [ ] Project 10: Names to Faces
+- [x] Project 10: Names to Faces
 > UICollectionView, UIImagePickerController, UUID, classes
 Get started with UICollectionView and the photo library.
 
