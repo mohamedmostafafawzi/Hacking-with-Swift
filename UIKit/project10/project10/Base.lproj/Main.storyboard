@@ -44,7 +44,7 @@
                                 </view>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
-                                    <outlet property="imageVie" destination="3o3-N6-VUv" id="XgF-Lz-D8O"/>
+                                    <outlet property="imageView" destination="3o3-N6-VUv" id="XgF-Lz-D8O"/>
                                     <outlet property="name" destination="33C-V8-R4Z" id="NS6-Gt-SQu"/>
                                 </connections>
                             </collectionViewCell>
