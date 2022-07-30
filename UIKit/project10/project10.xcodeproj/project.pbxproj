@@ -44,7 +44,6 @@
 		700BE5862894911B00D2364D = {
 			isa = PBXGroup;
 			children = (
-				700BE5A82894A6D800D2364D /* Person.swift */,
 				700BE5912894911B00D2364D /* project10 */,
 				700BE5902894911B00D2364D /* Products */,
 			);
@@ -66,6 +65,7 @@
 				700BE5962894911B00D2364D /* ViewController.swift */,
 				700BE5982894911B00D2364D /* Main.storyboard */,
 				700BE5A62894955E00D2364D /* PersonCell.swift */,
+				700BE5A82894A6D800D2364D /* Person.swift */,
 				700BE59B2894911D00D2364D /* Assets.xcassets */,
 				700BE59D2894911D00D2364D /* LaunchScreen.storyboard */,
 				700BE5A02894911D00D2364D /* Info.plist */,
