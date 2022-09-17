@@ -141,11 +141,11 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     func collision(between ball: SKNode, object: SKNode) {
         if object.name == "good" {
-            destroy(ball: ball)
+            destroy(ball: ball, isGood: true)
             score += 1
             ballsCount += 1
         } else if object.name == "bad" {
-            destroy(ball: ball)
+            destroy(ball: ball, isGood: false)
             score -= 1
         }
         if object.name == "box" {
@@ -153,8 +153,10 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         }
     }
     
-    func destroy(ball: SKNode) {
-        if let fireParticles = SKEmitterNode(fileNamed: "FireParticles") {
+    func destroy(ball: SKNode, isGood: Bool) {
+        let particles = isGood ? "MagicParticles" : "FireParticles"
+        
+        if let fireParticles = SKEmitterNode(fileNamed: particles) {
             fireParticles.position = ball.position
             addChild(fireParticles)
         }
