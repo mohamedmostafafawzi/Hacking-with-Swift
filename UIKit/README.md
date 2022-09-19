@@ -46,7 +46,7 @@ Learn how to run complex tasks in the background with GCD.
 > UICollectionView, UIImagePickerController, UUID, classes
 Get started with UICollectionView and the photo library.
 
-- [ ] Project 11: Pachinko
+- [x] Project 11: Pachinko
 > SpriteKit, physics, blend modes, radians, CGFloat, NSKeyedUnarchiver
 Dive into SpriteKit to try your hand at fast 2D games.
 
