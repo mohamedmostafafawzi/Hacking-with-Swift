@@ -50,7 +50,7 @@ Get started with UICollectionView and the photo library.
 > SpriteKit, physics, blend modes, radians, CGFloat, NSKeyedUnarchiver
 Dive into SpriteKit to try your hand at fast 2D games.
 
-- [ ] Project 12: UserDefaults
+- [x] Project 12: UserDefaults
 > UserDefaults, NSCoding, Codable, NSKeyedArchiver
 Learn how to save user settings and data for later use.
 
