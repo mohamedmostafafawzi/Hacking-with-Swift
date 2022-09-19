@@ -58,7 +58,7 @@ class ViewController: UIViewController {
             score += 1
             alertMessage = """
 Score: \(score)
-Question Left: \(10 - questionsCount)
+Question Left: \(3 - questionsCount)
 """
         } else {
             title = "Wrong!"
@@ -66,15 +66,21 @@ Question Left: \(10 - questionsCount)
             alertMessage = """
 That's the Flag of \(countries[sender.tag].uppercased())
 Score: \(score)
-Question Left: \(10 - questionsCount)
+Question Left: \(3 - questionsCount)
 """
         }
         
-        if questionsCount < 10 {
+        if questionsCount < 3 {
 
             showAlert(title: title, message: alertMessage, actionTitle: "Continue")
         } else {
+            let previousScore = UserDefaults.standard.integer(forKey: "score") 
+            if score > previousScore {
+                showAlert(title: "New High Score", message: "You just beated the last score of \(previousScore)", actionTitle: "Awesome")
+            }
             showAlert(title: title, message: alertMessage, actionTitle: "Restart")
+            let defaults = UserDefaults.standard
+            defaults.set(score, forKey: "score")
             questionsCount = 0
             score = 0
         }

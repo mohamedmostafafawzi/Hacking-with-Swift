@@ -26,13 +26,24 @@ class ViewController: UITableViewController {
         }
         
         startGame()
-        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Restart", style: .plain, target: self, action: #selector(startGame))
+        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Restart", style: .plain, target: self, action: #selector(restartGame))
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(promptForAnswer))
         
     }
 
+    func startGame() {
+        let defaults = UserDefaults.standard
 
-    @objc func startGame() {
+        if let previousWord = defaults.string(forKey: "word"), previousWord != "" {
+            title = previousWord
+        } else {
+            title = allWords.randomElement()
+        }
+        usedWords = defaults.object(forKey: "usedWords") as? [String] ?? [String]()
+        tableView.reloadData()
+    }
+    
+    @objc func restartGame() {
         title = allWords.randomElement()
         usedWords.removeAll(keepingCapacity: true)
         tableView.reloadData()
@@ -69,7 +80,6 @@ class ViewController: UITableViewController {
                     
                     let indexPath = IndexPath(row: 0, section: 0)
                     tableView.insertRows(at: [indexPath], with: .automatic)
-                    return
                 } else {
                     showErrorMessage(errorTitle: "Word not recognised", errorMessage: "You can't just make them up, you know!")
                 }
@@ -80,7 +90,10 @@ class ViewController: UITableViewController {
             guard let title = title?.lowercased() else { return }
             showErrorMessage(errorTitle: "Word not possible", errorMessage: "You can't spell that word from \(title)")
         }
-        
+        let defaults = UserDefaults.standard
+
+        defaults.set(title, forKey: "word")
+        defaults.set(usedWords, forKey: "usedWords")
     }
     
     func isPossible(word: String) -> Bool {
