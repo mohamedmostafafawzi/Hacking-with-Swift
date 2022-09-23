@@ -54,7 +54,7 @@ Dive into SpriteKit to try your hand at fast 2D games.
 > UserDefaults, NSCoding, Codable, NSKeyedArchiver
 Learn how to save user settings and data for later use.
 
-- [ ] Project 13: Instafilter
+- [x] Project 13: Instafilter
 > Core Image, UISlider, writing to the photo library
 Make a photo manipulation program using Core Image filters and a UISlider.
 
