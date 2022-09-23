@@ -23,5 +23,7 @@ class ViewController: UIViewController {
     @IBAction func save(_ sender: Any) {
     }
     
+    @IBAction func intensityChanged(_ sender: Any) {
+    }
 }
 
