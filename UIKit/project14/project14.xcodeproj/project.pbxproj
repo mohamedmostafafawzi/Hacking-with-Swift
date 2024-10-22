@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		372AE7CB2CC7F94F004DB30C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372AE7C92CC7F94F004DB30C /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		372AE79D2CC6C947004DB30C /* project14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project14.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		372AE7C92CC7F94F004DB30C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		372AE7942CC6C946004DB30C = {
 			isa = PBXGroup;
 			children = (
+				372AE7C92CC7F94F004DB30C /* Assets.xcassets */,
 				372AE79F2CC6C947004DB30C /* project14 */,
 				372AE79E2CC6C947004DB30C /* Products */,
 			);
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				372AE7CB2CC7F94F004DB30C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

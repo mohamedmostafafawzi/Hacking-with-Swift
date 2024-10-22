@@ -11,6 +11,7 @@ import UIKit
 
 class WhachSlot: SKNode {
     var charNode: SKSpriteNode!
+    var sprite: SKSpriteNode!
     
     var isVisiable = false
     var isHit = false
@@ -18,7 +19,7 @@ class WhachSlot: SKNode {
     func configure(at position: CGPoint) {
         self.position = position
         
-        let sprite = SKSpriteNode(imageNamed: "whackHole")
+        sprite = SKSpriteNode(imageNamed: "whackHole")
         addChild(sprite)
         
         let cropNode = SKCropNode()
