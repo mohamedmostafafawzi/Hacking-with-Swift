@@ -58,19 +58,19 @@ Learn how to save user settings and data for later use.
 > Core Image, UISlider, writing to the photo library
 Make a photo manipulation program using Core Image filters and a UISlider.
 
-- [ ] Project 14: Whack-a-Penguin
+- [x] Project 14: Whack-a-Penguin
 > SKCropNode, SKTexture, asyncAfter()
 Build a game using SKCropNode and a sprinkling of Grand Central Dispatch.
 
-- [ ] Project 15: Animation
+- [x] Project 15: Animation
 > Core Animation, CGAffineTransform
 Bring your interfaces to life with animation, and meet switch/case at the same time.
 
-- [ ] Project 16: Capital Cities
+- [x] Project 16: Capital Cities
 > MKMapView, MKAnnotation, MKPinAnnotationView, CLLocationCoordinate2D
 Teach users about geography while you learn about MKMapView and annotations.
 
-- [ ] Project 17: Space Race
+- [x] Project 17: Space Race
 > Per-pixel collision detection, advancing particle systems, linear and angular damping
 Dodge space debris while you learn about per-pixel collision detection.
 
