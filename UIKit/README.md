@@ -74,7 +74,7 @@ Teach users about geography while you learn about MKMapView and annotations.
 > Per-pixel collision detection, advancing particle systems, linear and angular damping
 Dodge space debris while you learn about per-pixel collision detection.
 
-- [ ] Project 18: Debugging
+- [x] Project 18: Debugging
 > print(), assert(), breakpoints, and view debugging
 Everyone hits problems sooner or later, so learning to find and fix them is an important skill.
 
