@@ -78,7 +78,7 @@ Dodge space debris while you learn about per-pixel collision detection.
 > print(), assert(), breakpoints, and view debugging
 Everyone hits problems sooner or later, so learning to find and fix them is an important skill.
 
-- [ ] Project 19: JavaScript Injection
+- [x] Project 19: JavaScript Injection
 > Safari extensions, UITextView, NotificationCenter
 Extend Safari with a cool feature for JavaScript developers.
 
