@@ -82,7 +82,7 @@ Everyone hits problems sooner or later, so learning to find and fix them is an i
 > Safari extensions, UITextView, NotificationCenter
 Extend Safari with a cool feature for JavaScript developers.
 
-- [ ] Project 20: Fireworks Night
+- [x] Project 20: Fireworks Night
 > Timer, follow(path:), sprite color blending, shake gestures
 Learn about timers and color blends while making things go bang!
 
