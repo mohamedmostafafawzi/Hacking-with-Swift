@@ -86,7 +86,7 @@ Extend Safari with a cool feature for JavaScript developers.
 > Timer, follow(path:), sprite color blending, shake gestures
 Learn about timers and color blends while making things go bang!
 
-- [ ] Project 21: Local Notifications
+- [x] Project 21: Local Notifications
 > UNUserNotificationCenter, UNNotificationRequest, UNMutableNotificationContent, UNCalendarNotificationTrigger, and UNTimeIntervalNotificationTrigger
 Send reminders, prompts and alerts even when your app isn't running.
 
