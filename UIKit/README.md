@@ -90,7 +90,7 @@ Learn about timers and color blends while making things go bang!
 > UNUserNotificationCenter, UNNotificationRequest, UNMutableNotificationContent, UNCalendarNotificationTrigger, and UNTimeIntervalNotificationTrigger
 Send reminders, prompts and alerts even when your app isn't running.
 
-- [ ] Project 22: Detect-a-Beacon
+- [x] Project 22: Detect-a-Beacon
 > CLLocationManager, CLBeaconRegion, CLProximity
 Learn to find and range iBeacons using our first project for a physical device.
 
