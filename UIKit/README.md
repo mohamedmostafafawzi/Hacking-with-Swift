@@ -98,7 +98,7 @@ Learn to find and range iBeacons using our first project for a physical device.
 > SKShapeNode, AVAudioPlayer, UIBezierPath, custom enums
 Learn to draw shapes in SpriteKit while making a fun and tense slicing game.
 
-- [ ] Project 24: Swift Strings
+- [x] Project 24: Swift Strings
 > contains(where:), NSAttributedString
 Dive deep into the workings of Swift's strings
 
