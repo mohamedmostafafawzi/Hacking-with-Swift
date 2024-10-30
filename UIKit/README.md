@@ -94,7 +94,7 @@ Send reminders, prompts and alerts even when your app isn't running.
 > CLLocationManager, CLBeaconRegion, CLProximity
 Learn to find and range iBeacons using our first project for a physical device.
 
-- [ ] Project 23: Swifty Ninja
+- [x] Project 23: Swifty Ninja
 > SKShapeNode, AVAudioPlayer, UIBezierPath, custom enums
 Learn to draw shapes in SpriteKit while making a fun and tense slicing game.
 
