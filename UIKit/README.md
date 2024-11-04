@@ -102,7 +102,7 @@ Learn to draw shapes in SpriteKit while making a fun and tense slicing game.
 > contains(where:), NSAttributedString
 Dive deep into the workings of Swift's strings
 
-- [ ] Project 25: Selfie Share
+- [x] Project 25: Selfie Share
 > Multipeer Connectivity Framework
 Make a multipeer photo sharing app in just 150 lines of code.
 
