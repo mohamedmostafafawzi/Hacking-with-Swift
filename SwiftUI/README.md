@@ -6,7 +6,7 @@ This is Hacking with Swift, Paul Hudson's iOS Development Courses.
 - [x] Introduction to Swift
 > Learn the basics of Swift syntax using Xcode playgrounds – start here if this is your first time using Swift.
 
-- [ ] Project 1: WeSplit
+- [x] Project 1: WeSplit
 > Learn the basics of SwiftUI with your first project
 
 - [ ] Project 2: Guess the Flag
