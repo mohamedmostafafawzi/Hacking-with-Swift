@@ -9,10 +9,10 @@ This is Hacking with Swift, Paul Hudson's iOS Development Courses.
 - [x] Project 1: WeSplit
 > Learn the basics of SwiftUI with your first project
 
-- [ ] Project 2: Guess the Flag
+- [x] Project 2: Guess the Flag
 > Build a game with stacks, images, and alerts
 
-- [ ] Project 3: Views and Modifiers
+- [x] Project 3: Views and Modifiers
 > Dive deep into Swift's rendering system
 
 - [ ] Project 4: BetterRest
