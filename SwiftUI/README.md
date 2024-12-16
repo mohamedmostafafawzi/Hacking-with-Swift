@@ -15,7 +15,7 @@ This is Hacking with Swift, Paul Hudson's iOS Development Courses.
 - [x] Project 3: Views and Modifiers
 > Dive deep into Swift's rendering system
 
-- [ ] Project 4: BetterRest
+- [x] Project 4: BetterRest
 > Use machine learning to improve sleep
 
 - [ ] Project 5: Word Scramble
