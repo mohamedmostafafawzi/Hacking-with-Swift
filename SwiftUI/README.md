@@ -18,7 +18,7 @@ This is Hacking with Swift, Paul Hudson's iOS Development Courses.
 - [x] Project 4: BetterRest
 > Use machine learning to improve sleep
 
-- [ ] Project 5: Word Scramble
+- [x] Project 5: Word Scramble
 > Build a letter rearranging game with List
 
 - [ ] Project 6: Animation
