@@ -21,7 +21,7 @@ This is Hacking with Swift, Paul Hudson's iOS Development Courses.
 - [x] Project 5: Word Scramble
 > Build a letter rearranging game with List
 
-- [ ] Project 6: Animation
+- [x] Project 6: Animation
 > Spruce up your UI with springs, bounces, and more
 
 - [ ] Project 7: iExpense
