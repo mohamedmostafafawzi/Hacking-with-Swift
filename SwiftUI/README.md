@@ -24,7 +24,7 @@ This is Hacking with Swift, Paul Hudson's iOS Development Courses.
 - [x] Project 6: Animation
 > Spruce up your UI with springs, bounces, and more
 
-- [ ] Project 7: iExpense
+- [x] Project 7: iExpense
 > Bring in a second view with this expense tracking app
 
 - [ ] Project 8: Moonshot
