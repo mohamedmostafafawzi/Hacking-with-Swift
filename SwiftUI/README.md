@@ -27,11 +27,11 @@ This is Hacking with Swift, Paul Hudson's iOS Development Courses.
 - [x] Project 7: iExpense
 > Bring in a second view with this expense tracking app
 
-- [ ] Project 8: Moonshot
+- [x] Project 8: Moonshot
 > Teach users about space history with scroll views, Codable, and more
 
-- [ ] Project 9: Drawing
-> Use shapes, paths, colors, and more to create custom art for your app
+- [ ] Project 9: Navigation
+> Direct your user around your app, either programmatically or using explicit input
 
 - [ ] Project 10: Cupcake Corner
 > Build an app that sends and receives JSON from the internet
@@ -39,8 +39,8 @@ This is Hacking with Swift, Paul Hudson's iOS Development Courses.
 - [ ] Project 11: Bookworm
 > Use Core Data to build an app that tracks books you like
 
-- [ ] Project 12: Core Data
-> Take an in-depth tour of how SwiftUI and Core Data work together
+- [ ] Project 12: SwiftData
+> Take an in-depth tour of how SwiftUI and SwiftData work together
 
 - [ ] Project 13: Instafilter
 > Learn to link SwiftUI, UIKit, and Core Image in one app
@@ -62,6 +62,12 @@ This is Hacking with Swift, Paul Hudson's iOS Development Courses.
 
 - [ ] Project 19: SnowSeeker
 > Build an app for ski resorts that works great on iPad.
+
+- [ ] Project 20: Drawing
+> Use shapes, paths, colors, and more to create custom art for your app
+
+- [ ] Project 21: Core Data
+> Take an in-depth tour of how SwiftUI and Core Data work together
 
 ##
 [Hacking with Swift [SwiftUI Edition]](https://www.hackingwithswift.com/books/ios-swiftui)
