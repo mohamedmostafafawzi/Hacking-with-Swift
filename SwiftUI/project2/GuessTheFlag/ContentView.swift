@@ -2,20 +2,17 @@
 //  ContentView.swift
 //  GuessTheFlag
 //
-//  Created by Paul Hudson on 20/10/2021.
+//  Created by Paul Hudson on 11/10/2023.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    @State private var countries = ["Estonia", "France", "Germany", "Ireland", "Italy", "Nigeria", "Poland", "Spain", "UK", "Ukraine", "US"].shuffled()
+    @State private var correctAnswer = Int.random(in: 0...2)
+
     @State private var showingScore = false
     @State private var scoreTitle = ""
-    @State private var scoreValue = 0
-    @State private var showingGameOver = false
-    @State private var numberOfQuestions = 8
-
-    @State private var countries = ["Estonia", "France", "Germany", "Ireland", "Italy", "Nigeria", "Poland", "Russia", "Spain", "UK", "US"].shuffled()
-    @State private var correctAnswer = Int.random(in: 0...2)
 
     var body: some View {
         ZStack {
@@ -30,7 +27,7 @@ struct ContentView: View {
 
                 Text("Guess the Flag")
                     .font(.largeTitle.bold())
-                    .foregroundColor(.white)
+                    .foregroundStyle(.white)
 
                 VStack(spacing: 15) {
                     VStack {
@@ -47,8 +44,7 @@ struct ContentView: View {
                             flagTapped(number)
                         } label: {
                             Image(countries[number])
-                                .renderingMode(.original)
-                                .clipShape(Capsule())
+                                .clipShape(.capsule)
                                 .shadow(radius: 5)
                         }
                     }
@@ -56,13 +52,13 @@ struct ContentView: View {
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 20)
                 .background(.regularMaterial)
-                .clipShape(RoundedRectangle(cornerRadius: 20))
+                .clipShape(.rect(cornerRadius: 20))
 
                 Spacer()
                 Spacer()
 
-                Text("Score: \(scoreValue)")
-                    .foregroundColor(.white)
+                Text("Score: ???")
+                    .foregroundStyle(.white)
                     .font(.title.bold())
 
                 Spacer()
@@ -72,27 +68,17 @@ struct ContentView: View {
         .alert(scoreTitle, isPresented: $showingScore) {
             Button("Continue", action: askQuestion)
         } message: {
-            Text("Your score is \(scoreValue)")
-        }
-        .alert(scoreTitle, isPresented: $showingGameOver) {
-            Button("Restart", action: reset)
-        } message: {
-            Text("Your score is \(scoreValue)")
+            Text("Your score is ???")
         }
     }
 
     func flagTapped(_ number: Int) {
         if number == correctAnswer {
             scoreTitle = "Correct"
-            scoreValue = scoreValue + 1
         } else {
-            scoreTitle = "Wrong! That’s the flag of \(countries[number])"
+            scoreTitle = "Wrong"
         }
-        numberOfQuestions = numberOfQuestions - 1
-        guard numberOfQuestions > 0 else {
-            showingGameOver = true
-            return
-        }
+
         showingScore = true
     }
 
@@ -100,17 +86,8 @@ struct ContentView: View {
         countries.shuffle()
         correctAnswer = Int.random(in: 0...2)
     }
-    
-    func reset() {
-        countries.shuffle()
-        correctAnswer = Int.random(in: 0...2)
-        scoreValue = 0
-        numberOfQuestions = 8
-    }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+#Preview {
+    ContentView()
 }

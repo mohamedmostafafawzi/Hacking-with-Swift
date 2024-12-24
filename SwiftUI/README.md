@@ -30,7 +30,7 @@ This is Hacking with Swift, Paul Hudson's iOS Development Courses.
 - [x] Project 8: Moonshot
 > Teach users about space history with scroll views, Codable, and more
 
-- [ ] Project 9: Navigation
+- [x] Project 9: Navigation
 > Direct your user around your app, either programmatically or using explicit input
 
 - [ ] Project 10: Cupcake Corner
