@@ -36,8 +36,8 @@ This is Hacking with Swift, Paul Hudson's iOS Development Courses.
 - [x] Project 10: Cupcake Corner
 > Build an app that sends and receives JSON from the internet
 
-- [ ] Project 11: Bookworm
-> Use Core Data to build an app that tracks books you like
+- [x] Project 11: Bookworm
+> Use SwiftData to build an app that tracks books you like
 
 - [ ] Project 12: SwiftData
 > Take an in-depth tour of how SwiftUI and SwiftData work together
