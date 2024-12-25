@@ -33,7 +33,7 @@ This is Hacking with Swift, Paul Hudson's iOS Development Courses.
 - [x] Project 9: Navigation
 > Direct your user around your app, either programmatically or using explicit input
 
-- [ ] Project 10: Cupcake Corner
+- [x] Project 10: Cupcake Corner
 > Build an app that sends and receives JSON from the internet
 
 - [ ] Project 11: Bookworm
