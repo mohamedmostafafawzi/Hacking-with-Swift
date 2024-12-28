@@ -39,7 +39,7 @@ This is Hacking with Swift, Paul Hudson's iOS Development Courses.
 - [x] Project 11: Bookworm
 > Use SwiftData to build an app that tracks books you like
 
-- [ ] Project 12: SwiftData
+- [x] Project 12: SwiftData
 > Take an in-depth tour of how SwiftUI and SwiftData work together
 
 - [ ] Project 13: Instafilter
