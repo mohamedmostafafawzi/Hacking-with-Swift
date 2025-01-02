@@ -42,7 +42,7 @@ This is Hacking with Swift, Paul Hudson's iOS Development Courses.
 - [x] Project 12: SwiftData
 > Take an in-depth tour of how SwiftUI and SwiftData work together
 
-- [ ] Project 13: Instafilter
+- [x] Project 13: Instafilter
 > Learn to link SwiftUI, UIKit, and Core Image in one app
 
 - [ ] Project 14: Bucket List
