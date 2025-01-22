@@ -45,7 +45,7 @@ This is Hacking with Swift, Paul Hudson's iOS Development Courses.
 - [x] Project 13: Instafilter
 > Learn to link SwiftUI, UIKit, and Core Image in one app
 
-- [ ] Project 14: Bucket List
+- [x] Project 14: Bucket List
 > Embed maps and make network calls in this life goals app
 
 - [ ] Project 15: Accessibility
