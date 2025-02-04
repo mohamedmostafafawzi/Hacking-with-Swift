@@ -48,7 +48,7 @@ This is Hacking with Swift, Paul Hudson's iOS Development Courses.
 - [x] Project 14: Bucket List
 > Embed maps and make network calls in this life goals app
 
-- [ ] Project 15: Accessibility
+- [x] Project 15: Accessibility
 > Learn how to make your apps available to everyone
 
 - [ ] Project 16: Hot Prospects
