@@ -51,7 +51,7 @@ This is Hacking with Swift, Paul Hudson's iOS Development Courses.
 - [x] Project 15: Accessibility
 > Learn how to make your apps available to everyone
 
-- [ ] Project 16: Hot Prospects
+- [x] Project 16: Hot Prospects
 > Build an app for conferences with tabs, context menus, and more.
 
 - [ ] Project 17: Flashzilla
