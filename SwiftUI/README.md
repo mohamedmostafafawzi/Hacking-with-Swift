@@ -4,7 +4,7 @@ This is Hacking with Swift, Paul Hudson's iOS Development Courses.
 ## Hacking with Swift - SwiftUI Edition
 
 - [x] Introduction to Swift
-> Learn the basics of Swift syntax using Xcode playgrounds – start here if this is your first time using Swift.
+> Learn the basics of Swift syntax using Xcode playgrounds
 
 - [x] Project 1: WeSplit
 > Learn the basics of SwiftUI with your first project
@@ -52,16 +52,16 @@ This is Hacking with Swift, Paul Hudson's iOS Development Courses.
 > Learn how to make your apps available to everyone
 
 - [x] Project 16: Hot Prospects
-> Build an app for conferences with tabs, context menus, and more.
+> Build an app for conferences with tabs, context menus, and more
 
-- [ ] Project 17: Flashzilla
-> Use gestures and haptics to build a learning app.
+- [x] Project 17: Flashzilla
+> Use gestures and haptics to build a learning app
 
 - [ ] Project 18: Layout and Geometry
-> Explore the inner workings of SwiftUI's layout system.
+> Explore the inner workings of SwiftUI's layout system
 
 - [ ] Project 19: SnowSeeker
-> Build an app for ski resorts that works great on iPad.
+> Build an app for ski resorts that works great on iPad
 
 - [ ] Project 20: Drawing
 > Use shapes, paths, colors, and more to create custom art for your app
