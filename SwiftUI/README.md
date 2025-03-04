@@ -57,7 +57,7 @@ This is Hacking with Swift, Paul Hudson's iOS Development Courses.
 - [x] Project 17: Flashzilla
 > Use gestures and haptics to build a learning app
 
-- [ ] Project 18: Layout and Geometry
+- [x] Project 18: Layout and Geometry
 > Explore the inner workings of SwiftUI's layout system
 
 - [ ] Project 19: SnowSeeker
