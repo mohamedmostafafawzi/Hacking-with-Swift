@@ -60,7 +60,7 @@ This is Hacking with Swift, Paul Hudson's iOS Development Courses.
 - [x] Project 18: Layout and Geometry
 > Explore the inner workings of SwiftUI's layout system
 
-- [ ] Project 19: SnowSeeker
+- [x] Project 19: SnowSeeker
 > Build an app for ski resorts that works great on iPad
 
 - [ ] Project 20: Drawing
