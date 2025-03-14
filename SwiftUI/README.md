@@ -63,7 +63,7 @@ This is Hacking with Swift, Paul Hudson's iOS Development Courses.
 - [x] Project 19: SnowSeeker
 > Build an app for ski resorts that works great on iPad
 
-- [ ] Project 20: Drawing
+- [x] Project 20: Drawing
 > Use shapes, paths, colors, and more to create custom art for your app
 
 - [ ] Project 21: Core Data
