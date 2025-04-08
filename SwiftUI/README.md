@@ -66,7 +66,7 @@ This is Hacking with Swift, Paul Hudson's iOS Development Courses.
 - [x] Project 20: Drawing
 > Use shapes, paths, colors, and more to create custom art for your app
 
-- [ ] Project 21: Core Data
+- [x] Project 21: Core Data
 > Take an in-depth tour of how SwiftUI and Core Data work together
 
 ##
